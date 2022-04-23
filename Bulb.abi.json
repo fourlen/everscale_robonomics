@@ -1,0 +1,33 @@
+{
+	"ABI version": 2,
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "turnOnOff",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"success","type":"bool"}
+			]
+		},
+		{
+			"name": "isTurnedOn",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"isTurnedOn","type":"bool"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}
